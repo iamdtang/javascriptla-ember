@@ -21,8 +21,8 @@ module.exports = function(environment) {
       // 'default-src': ["'none'"],
       // 'script-src':  ["'self'"],
       // 'font-src':    ["'self'"],
-      'connect-src': "'self' https://api.github.com"
-      // 'img-src':     ["'self'"],
+      'connect-src': "'self' https://api.github.com",
+      'img-src':     "'self' https://avatars.githubusercontent.com"
       // 'style-src':   ["'self'"],
       // 'media-src':   ["'self'"]
     }
