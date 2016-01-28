@@ -1,8 +1,11 @@
-<!-- {{#each model as |repo|}}
+<h3>My Repos</h3>
+{{#each model as |repo|}}
   <div class="repo">
     <h3>
       <a href="{{repo.html_url}}" target="_blank">{{repo.name}}</a>
     </h3>
     <p>{{repo.description}}</p>
   </div>
-{{/each}} -->
+{{/each}}
+
+{{outlet}}
